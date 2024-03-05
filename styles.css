@@ -15,8 +15,9 @@ h1 {
 }
 
 p {
-    font-size: 20px;
     color: #ffffff; /* Change the color to white */
+    font-size: 20px;
+    
 }
 
 input[type="text"] {
