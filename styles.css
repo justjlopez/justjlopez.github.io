@@ -1,5 +1,6 @@
 body {
-    background-color: #ffd700; /* Set background color to gold */
+    background-image: url('background.gif');
+    background-size: cover;
     font-family: Arial, sans-serif;
 }
 
@@ -29,4 +30,5 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
 
