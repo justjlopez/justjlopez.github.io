@@ -16,6 +16,8 @@ h1 {
 
 p {
     font-size: 20px;
+    .surprise-text {
+    color: #ffffff; /* Change the color to white */
 }
 
 input[type="text"] {
