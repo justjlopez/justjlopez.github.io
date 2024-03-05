@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi Itzel</title>
+    <title>Happy Birthday Candle</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Hi Itzel</h1>
-        <p>Enter '23' for a surprise.</p>
+        <h1>Welcome to the Birthday Surprise!</h1>
+        <p class="surprise-text">Enter '23' for a surprise.</p>
+        <!-- Add images below the user prompt text -->
+        <div class="images-container">
+            <img src="image1.jpg" alt="Image 1" class="small-image">
+            <img src="image2.jpg" alt="Image 2" class="small-image">
+            <img src="image3.jpg" alt="Image 3" class="small-image">
+        </div>
         <input type="text" id="surpriseInput" placeholder="Enter '23'">
         <button onclick="checkSurprise()">Go</button>
     </div>
