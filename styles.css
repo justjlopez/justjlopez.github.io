@@ -15,8 +15,8 @@ h1 {
 }
 
 p {
-    color: #ffffff;
     font-size: 20px;
+    color: #ffffff; /* Change the color to white */
 }
 
 input[type="text"] {
@@ -31,5 +31,4 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-
 
